@@ -1,0 +1,23 @@
+[debug] not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/home/andre/Documents/scala/undo/scala3/project/"), "scala3-build")...
+[debug] Done updating ProjectRef(uri("file:/home/andre/Documents/scala/undo/scala3/project/"), "scala3-build")
+ethod)
+[error] 	at sun.nio.ch.FileDispatcherImpl.lock(FileDispatcherImpl.java:94)
+[error] 	at sun.nio.ch.FileChannelImpl.lock(FileChannelImpl.java:1072)
+[error] 	at java.nio.channels.FileChannel.lock(FileChannel.java:1053)
+[error] 	at lmcoursier.internal.shaded.coursier.paths.CachePath.withStructureLock(CachePath.java:144)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withStructureLock(CacheLocks.scala:21)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:38)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$Blocking$.remote(Downloader.scala:382)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader.$anonfun$remote$5(Downloader.scala:480)
+[error] 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+[error] 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+[error] 	at scala.util.Success.map(Try.scala:213)
+[error] 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+[error] 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+[error] 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+[error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:748)
+[error] (updateClassifiers) java.io.IOException: Resource deadlock avoided

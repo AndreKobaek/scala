@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /home/andre/Documents/scala/undo/scala3/src/main/scala/Main.scala:96:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m96 |[0m[33mclass[0m [35mPaymentHandler[0m() {[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |class PaymentHandler needs to be abstract, since var processedPayments: List[(String, Boolean)] in [33mclass[0m [35mPaymentHandler[0m is not defined [0m
+[0m[[0m[31merror[0m] [0m[0m   |(Note that variables need to be initialized to be defined)[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
