@@ -4,7 +4,7 @@ class Payment(
     val amount: Int,
     val agent: String = "",
     val membershipId: String = ""
-) extends Object {
+) {
   var components: List[Component] = List[Component]()
 
   def processAllComponents(
@@ -27,7 +27,7 @@ trait Component() {
   def processComponent(): Boolean
 }
 
-abstract class Membership(membershipId: String) extends Object {
+abstract class Membership(membershipId: String) {
   def notifyMember(noticeReason: String): Boolean =
     val strMsg: String =
       "E-mail sent to member " + membershipId + " notifying them of their membership " + noticeReason
@@ -35,7 +35,7 @@ abstract class Membership(membershipId: String) extends Object {
     return true
 }
 
-class Physical(var payment: Payment) extends Object, Component {
+class Physical(var payment: Payment) extends Component {
   def processComponent(): Boolean = {
     val strMsg: String = "Generated packing slip for payment " + payment.id
     val strMsgComm: String =
@@ -47,7 +47,7 @@ class Physical(var payment: Payment) extends Object, Component {
   }
 }
 
-class Book(var payment: Payment) extends Object, Component {
+class Book(var payment: Payment) extends Component {
   def processComponent(): Boolean = {
     val strMsg: String =
       "Generated royalty packing slip for payment " + payment.id
@@ -56,7 +56,7 @@ class Book(var payment: Payment) extends Object, Component {
   }
 }
 
-class Video(var payment: Payment) extends Object, Component {
+class Video(var payment: Payment) extends Component {
   def processComponent(): Boolean = {
     return true
   }
@@ -86,7 +86,7 @@ class MembershipActivation(var payment: Payment, membershipId: String)
   }
 }
 
-class Learn2Ski(var payment: Payment) extends Object, Component {
+class Learn2Ski(var payment: Payment) extends Component {
   def processComponent(): Boolean = {
     val strMsg: String =
       "Added product: First Aid to packing slip for payment" + payment.id
