@@ -1,0 +1,47 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/andre/Documents/scala/undo/scala3/src/main/scala/target/scala-2.12/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Payment$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Membership$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PaymentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PaymentHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentSubType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MembershipType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Payment.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentSubType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Component$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MembershipType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Component.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Membership.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Payment$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Membership$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PaymentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PaymentHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentSubType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MembershipType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Payment.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentSubType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Component$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MembershipType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Component.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Membership.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Payment$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Membership$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PaymentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PaymentHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentSubType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MembershipType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Payment.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentSubType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Component$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MembershipType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Component.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Membership.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/andre/Documents/scala/undo/scala3/src/main/scala/target/scala-2.12/classes.bak[0m
